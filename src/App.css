@@ -1,38 +1,157 @@
-.App {
-  text-align: center;
+/* Navbar implementation__________________________________ */
+.Navbar_postion{
+  position: fixed;
+  top:0px;
+  box-shadow: 2px 2px 2px #808080;
+  width: -webkit-fill-available;
+  height: 50px;
+
+  background-color: white;
+}
+.sub_navbar{
+  position: relative;
+
+}
+.postion_left{
+  position: absolute;
+  left: 5px;
+  top: 3px;
+
+}
+.postion_right{
+  position: absolute;
+  right: 10px;
+  color: #009688;
+  top: 3px;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.button_style{
+  background-color: white;
+    border: 2px solid #64b5f6;
+    border-radius: 30px;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+/* Navbar implementation__________________________________ */
+/* img section______________________________ */
+
+.img_col2{
+ 
+}
+.container_margin{
+
+  
+}
+.pad{
+  padding: 90px;
+}
+.img_text{
+  /* position: absolute;
+  top: 74px; */
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* img_______________________ */
+
+/* Recc______________________________________ */
+.Recc_display{
+
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  scroll-behavior: auto;
+
 }
 
-.App-link {
-  color: #61dafb;
+.main_recc{
+  width: 226px;
+   height: 87px;
+   box-shadow: 2px 2px 2px #bdbdbd;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/* rec________________________________________ */
+
+/* Stack____________________________/ */
+
+.skill_dimension{
+  width: 100px;
+  height: 100px;
 }
+
+.skill_dimension_img{
+
+ width: 100px;
+  height: 100px;
+  border-radius: 50px;
+}
+
+.stack_dimension{
+  display: flex;
+  justify-content: space-around;
+}
+.bggrey{
+  background-color: rgb(202, 198, 198);
+}
+
+.bgblack{
+  background-color: black;
+}
+
+.textwhite{
+color:white;
+}
+/* Stack______________________________________ */
+
+/* footer-------------- */
+.ul{
+  list-style: none;
+}
+
+.p_style{
+  text-align: initial;
+}
+/* footer  */
+
+
+/* poject */
+
+.project_card{
+  width:250px;
+  height: 250px;
+}
+
+.project_img{
+  width: 260px;
+    height: 230px;
+}
+
+.project_div{
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+/* project */
+
+/* form form  */
+.contact_form{
+ width: 500px;
+ margin: auto;
+  
+}
+
+.inputfield{
+width: 500px;
+display: block;
+margin: 10px;
+}
+
+
+.btn_style{
+  background-color: black;
+  color:white;
+}
+
+/* form/ */
